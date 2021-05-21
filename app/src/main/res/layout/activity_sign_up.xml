@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SignUpActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -23,7 +22,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welcome Back !"
+            android:text="New User"
             android:textColor="#FFBD4D"
             android:textSize="42sp"
             android:textStyle="bold">
@@ -33,7 +32,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Log In To Continue"
+            android:text="Nice To See You Here"
             android:textColor="#FF8596"
             android:textSize="23sp">
 
@@ -57,7 +56,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <EditText
-            android:id="@+id/loginemail"
+            android:id="@+id/forgotpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Your Email"
@@ -83,7 +82,7 @@
         app:passwordToggleEnabled="true">
 
         <EditText
-            android:id="@+id/loginpassword"
+            android:id="@+id/signuppassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Your Password">
@@ -93,14 +92,14 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/login"
+        android:id="@+id/signup"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="45dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="@color/blue"
-        android:text="Log in"
+        android:text="Sign Up"
         android:textAllCaps="false"
         android:textSize="18sp"
         app:cornerRadius="13dp"
@@ -110,45 +109,18 @@
 
 
     <TextView
-        android:id="@+id/gotoforgotpassword"
+        android:id="@+id/gotologin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/login"
+        android:layout_below="@id/signup"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:text="Forgot Password"
+        android:text="Want To Login ?"
         android:textAlignment="center"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login" />
+        app:layout_constraintTop_toBottomOf="@+id/signup" />
 
-    <TextView
-        android:id="@+id/gotosignup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        android:text="New User! Want To Sign In ?"
-        android:textAlignment="center"
-        android:textColor="@color/teal_700"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gotoforgotpassword" />
-
-    <ProgressBar
-        android:id="@+id/progressbarofmainactivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="428dp"
-        android:layout_marginEnd="32dp"
-        android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

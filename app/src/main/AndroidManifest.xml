@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ReminderMe" >
+        <activity android:name=".EditNoteActivity" />
+        <activity android:name=".CreateNoteActivity" />
+        <activity android:name=".NotesDetailsActivity" />
+        <activity android:name=".NotesActivity" />
+        <activity android:name=".ForgotPassActivity" />
+        <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

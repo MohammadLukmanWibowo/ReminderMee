@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "897186384980",
+    "project_id": "reminderme-5bac1",
+    "storage_bucket": "reminderme-5bac1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897186384980:android:51e2e6002c09a3fbf6b1c1",
+        "android_client_info": {
+          "package_name": "com.example.reminderme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897186384980-3o2geqhmo1p7go3prbmd5gj1d5bfr8ft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtxWjoHAORf_xjrHL5x3yIH2DVXSWoveA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897186384980-3o2geqhmo1p7go3prbmd5gj1d5bfr8ft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
