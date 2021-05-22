@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ReminderMe" >
-        <activity android:name=".EditNoteActivity" />
-        <activity android:name=".CreateNoteActivity" />
-        <activity android:name=".NotesDetailsActivity" />
+        <activity android:name=".EditNoteActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".CreateNoteActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".NotesDetailsActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".NotesActivity" />
         <activity android:name=".ForgotPassActivity" />
         <activity android:name=".SignUpActivity" />
